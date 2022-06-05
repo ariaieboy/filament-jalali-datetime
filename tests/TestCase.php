@@ -2,9 +2,9 @@
 
 namespace Ariaieboy\FilamentJalaliDatetime\Tests;
 
+use Ariaieboy\FilamentJalaliDatetime\FilamentJalaliDatetimeServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Ariaieboy\FilamentJalaliDatetime\FilamentJalaliDatetimeServiceProvider;
 
 class TestCase extends Orchestra
 {

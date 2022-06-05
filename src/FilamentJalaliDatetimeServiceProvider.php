@@ -2,9 +2,9 @@
 
 namespace Ariaieboy\FilamentJalaliDatetime;
 
+use Ariaieboy\FilamentJalaliDatetime\Commands\FilamentJalaliDatetimeCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Ariaieboy\FilamentJalaliDatetime\Commands\FilamentJalaliDatetimeCommand;
 
 class FilamentJalaliDatetimeServiceProvider extends PackageServiceProvider
 {
