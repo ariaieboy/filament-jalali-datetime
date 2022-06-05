@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace Ariaieboy\FilamentJalaliDatetime;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Commands\SkeletonCommand;
+use Ariaieboy\FilamentJalaliDatetime\Commands\FilamentJalaliDatetimeCommand;
 
-class SkeletonServiceProvider extends PackageServiceProvider
+class FilamentJalaliDatetimeServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -16,10 +16,10 @@ class SkeletonServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('skeleton')
+            ->name('filament-jalali-datetime')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_skeleton_table')
-            ->hasCommand(SkeletonCommand::class);
+            ->hasMigration('create_filament-jalali-datetime_table')
+            ->hasCommand(FilamentJalaliDatetimeCommand::class);
     }
 }

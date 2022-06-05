@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Ariaieboy\FilamentJalaliDatetime\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class FilamentJalaliDatetimeCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'filament-jalali-datetime';
 
     public $description = 'My command';
 
