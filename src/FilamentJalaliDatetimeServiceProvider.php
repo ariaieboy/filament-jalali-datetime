@@ -2,8 +2,8 @@
 
 namespace Ariaieboy\FilamentJalaliDatetime;
 
-use Spatie\LaravelPackageTools\Package;
 use Filament\PluginServiceProvider;
+use Spatie\LaravelPackageTools\Package;
 
 class FilamentJalaliDatetimeServiceProvider extends PluginServiceProvider
 {
