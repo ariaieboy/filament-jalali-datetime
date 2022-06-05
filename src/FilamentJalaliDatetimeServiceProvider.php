@@ -2,11 +2,10 @@
 
 namespace Ariaieboy\FilamentJalaliDatetime;
 
-use Ariaieboy\FilamentJalaliDatetime\Commands\FilamentJalaliDatetimeCommand;
 use Spatie\LaravelPackageTools\Package;
-use Spatie\LaravelPackageTools\PackageServiceProvider;
+use Filament\PluginServiceProvider;
 
-class FilamentJalaliDatetimeServiceProvider extends PackageServiceProvider
+class FilamentJalaliDatetimeServiceProvider extends PluginServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -17,9 +16,6 @@ class FilamentJalaliDatetimeServiceProvider extends PackageServiceProvider
          */
         $package
             ->name('filament-jalali-datetime')
-            ->hasConfigFile()
-            ->hasViews()
-            ->hasMigration('create_filament-jalali-datetime_table')
-            ->hasCommand(FilamentJalaliDatetimeCommand::class);
+            ->hasConfigFile();
     }
 }
