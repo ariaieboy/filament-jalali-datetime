@@ -16,7 +16,7 @@
         }
     ],
     "require": {
-        "php": "~8.0|~8.1",
+        "php": "~8.0.0|~8.1.0|~8.2.0",
         "filament/filament": "^2.12",
         "illuminate/contracts": "^8.0|^9.0",
         "morilog/jalali": "^3.3",
