@@ -2,6 +2,10 @@
 
 All notable changes to `filament-jalali-datetime` will be documented in this file.
 
+## 1.1.1 - 2023-01-11
+
+add laravel 10 to composer
+
 ## 1.1.0 - 2022-09-13
 
 add php 8.2 support
