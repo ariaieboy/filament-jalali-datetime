@@ -38,6 +38,12 @@ return [
 use Filament\Tables\Columns\TextColumn;
  
 TextColumn::make('created_at')->dateTime()
+
+//Since v1.2 you can use the code below to show Jalali date and dateTime
+
+TextColumn::make('created_at')->jalaliDate();
+TextColumn::make('created_at')->jalaliDateTime();
+
 //you can use the code below for jalali datetime
 use Ariaieboy\FilamentJalaliDatetime\JalaliDateTimeColumn;
  
