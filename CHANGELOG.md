@@ -2,6 +2,13 @@
 
 All notable changes to `filament-jalali-datetime` will be documented in this file.
 
+## 1.2.0 - 2023-07-22
+
+- Filament v3 support
+- Added `jalaliDate()` and `JalaliDateTime()` function to `TextColumn`
+
+**Full Changelog**: https://github.com/ariaieboy/filament-jalali-datetime/compare/1.1.1...1.2.0
+
 ## 1.1.1 - 2023-01-11
 
 add laravel 10 to composer
