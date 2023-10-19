@@ -2,6 +2,10 @@
 
 All notable changes to `filament-jalali-datetime` will be documented in this file.
 
+## 1.2.2 - 2023-10-19
+
+**Full Changelog**: https://github.com/ariaieboy/filament-jalali-datetime/compare/1.2.1...1.2.2
+
 ## 1.2.1 - 2023-09-02
 
 - add ide_helper
