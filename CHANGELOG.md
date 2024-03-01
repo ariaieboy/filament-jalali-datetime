@@ -2,6 +2,12 @@
 
 All notable changes to `filament-jalali-datetime` will be documented in this file.
 
+## 1.3.0 - 2024-03-01
+
+- add laravel 11
+
+**Full Changelog**: https://github.com/ariaieboy/filament-jalali-datetime/compare/1.2.2...1.3.0
+
 ## 1.2.2 - 2023-10-19
 
 **Full Changelog**: https://github.com/ariaieboy/filament-jalali-datetime/compare/1.2.1...1.2.2
