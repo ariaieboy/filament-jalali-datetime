@@ -2,10 +2,10 @@
 
 namespace Ariaieboy\FilamentJalaliDatetime;
 
+use Ariaieboy\Jalali\Jalali;
 use Filament\Tables\Columns\Column;
 use Filament\Tables\Columns\TextColumn;
 use Illuminate\Support\Carbon;
-use Morilog\Jalali\Jalalian;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
@@ -35,7 +35,7 @@ class FilamentJalaliDatetimeServiceProvider extends PackageServiceProvider
                     return null;
                 }
 
-                return Jalalian::fromCarbon(Carbon::parse($state)
+                return Jalali::fromCarbon(Carbon::parse($state)
                     ->setTimezone($timezone ?? $column->getTimezone()))
                     ->format($format);
             });

@@ -2,10 +2,10 @@
 
 namespace Ariaieboy\FilamentJalaliDatetime;
 
+use Ariaieboy\Jalali\Jalali;
 use Filament\Tables\Columns\Column;
 use Filament\Tables\Columns\TextColumn;
 use Illuminate\Support\Carbon;
-use Morilog\Jalali\Jalalian;
 
 class JalaliDateTimeColumn extends TextColumn
 {
@@ -20,7 +20,7 @@ class JalaliDateTimeColumn extends TextColumn
                 return null;
             }
 
-            return Jalalian::fromCarbon(Carbon::parse($state)
+            return Jalali::fromCarbon(Carbon::parse($state)
                 ->setTimezone($timezone ?? $column->getTimezone()))
                 ->format($format);
         });
