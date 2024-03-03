@@ -8,7 +8,6 @@
 This package will add a Jalali DateTime Column for filament table builder
 
 ## Installation
-> NOTE: If you are using laravel >11 add `nesbot/carbon:"^2"` into your composer.json and update your packages before installing this package.
 
 You can install the package via composer:
 
