@@ -2,6 +2,10 @@
 
 All notable changes to `filament-jalali-datetime` will be documented in this file.
 
+## 1.4.1 - 2024-04-23
+
+**Full Changelog**: https://github.com/ariaieboy/filament-jalali-datetime/compare/1.4.0...1.4.1
+
 ## 1.4.0 - 2024-03-03
 
 - replace `morilog/jalali` with `ariaieboy/jalali` so we can use carbon version 3 in laravel 11
