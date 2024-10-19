@@ -2,6 +2,12 @@
 
 All notable changes to `filament-jalali-datetime` will be documented in this file.
 
+## 1.4.2 - 2024-10-19
+
+- add php 8.4 to composer.json
+
+**Full Changelog**: https://github.com/ariaieboy/filament-jalali-datetime/compare/1.4.1...1.4.2
+
 ## 1.4.1 - 2024-04-23
 
 **Full Changelog**: https://github.com/ariaieboy/filament-jalali-datetime/compare/1.4.0...1.4.1
