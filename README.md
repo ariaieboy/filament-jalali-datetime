@@ -1,3 +1,6 @@
+# This package is no longer maintained please upgrade to [ariaieboy/filament-jalali](https://github.com/ariaieboy/filament-jalali)
+
+
 ![Ariaieboy Jalali DateTime](https://preview.dragon-code.pro/Ariaieboy/Jalali-DateTime.svg?brand=laravel)
 # a Jalali DateTime Column for filament table builder
 
